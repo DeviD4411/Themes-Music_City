@@ -1,0 +1,172 @@
+
+/* Слайдер */
+.slides {
+    overflow:hidden;
+    position:relative;
+    max-width:555px;
+    height:144px;
+    float: center;
+}
+.slides ul {
+    list-style:none;
+    position:relative;
+    margin: 0;
+	  padding: 20px 0 0 0;
+	  margin-top: 1px;
+	  max-width:555px;
+    float: center;
+}
+
+/* Кадры анимации #anim_slides */
+@-webkit-keyframes anim_slides {
+    0% {
+        opacity:0;
+    }
+    6% {
+        opacity:1;
+    }
+    24% {
+        opacity:1;
+    }
+    30% {
+        opacity:0;
+    }
+    100% {
+        opacity:0;
+    }
+}
+@-moz-keyframes anim_slides {
+    0% {
+        opacity:0;
+    }
+    6% {
+        opacity:1;
+    }
+    24% {
+        opacity:1;
+    }
+    30% {
+        opacity:0;
+    }
+    100% {
+        opacity:0;
+    }
+}
+
+.slides ul li {
+    opacity:0;
+    position:absolute;
+    top:0;
+
+    /* анимация css3 */
+    -webkit-animation-name: anim_slides;
+    -webkit-animation-duration: 58.0s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-delay: 0;
+    -webkit-animation-play-state: running;
+    -webkit-animation-fill-mode: forwards;
+
+    -moz-animation-name: anim_slides;
+    -moz-animation-duration: 58.0s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+    -moz-animation-delay: 0;
+    -moz-animation-play-state: running;
+    -moz-animation-fill-mode: forwards;
+}
+
+/* Задержки css3 */
+.slides ul  li:nth-child(2), .slides ul  li:nth-child(2) div {
+    -webkit-animation-delay: 6.0s;
+    -moz-animation-delay: 6.0s;
+}
+.slides ul  li:nth-child(3), .slides ul  li:nth-child(3) div {
+    -webkit-animation-delay: 12.0s;
+    -moz-animation-delay: 12.0s;
+}
+.slides ul  li:nth-child(4), .slides ul  li:nth-child(4) div {
+    -webkit-animation-delay: 18.0s;
+    -moz-animation-delay: 18.0s;
+}
+.slides ul  li:nth-child(5), .slides ul  li:nth-child(5) div {
+    -webkit-animation-delay: 24.0s;
+    -moz-animation-delay: 24.0s;
+}
+.slides ul  li:nth-child(6), .slides ul  li:nth-child(6) div {
+    -webkit-animation-delay: 30.0s;
+    -moz-animation-delay: 30.0s;
+}
+.slides ul  li:nth-child(7), .slides ul  li:nth-child(7) div {
+    -webkit-animation-delay: 36.0s;
+    -moz-animation-delay: 36.0s;
+}
+.slides ul  li:nth-child(8), .slides ul  li:nth-child(8) div {
+    -webkit-animation-delay: 42.0s;
+    -moz-animation-delay: 42.0s;
+}
+.slides ul  li:nth-child(9), .slides ul  li:nth-child(9) div {
+    -webkit-animation-delay: 48.0s;
+    -moz-animation-delay: 48.0s;
+}
+.slides ul  li:nth-child(10), .slides ul  li:nth-child(10) div {
+    -webkit-animation-delay: 52.0s;
+    -moz-animation-delay: 52.0s;
+}
+.slides ul  li:nth-child(11), .slides ul  li:nth-child(11) div {
+    -webkit-animation-delay: 58.0s;
+    -moz-animation-delay: 58.0s;
+}
+
+
+.slides ul li img {
+    display:block;
+}
+
+/* Кадры анимации #anim_titles */
+@-webkit-keyframes anim_titles {
+    0% {
+        left:100%;
+        opacity:0;
+    }
+    5% {
+        left:10%;
+        opacity:1;
+    }
+    20% {
+        left:10%;
+        opacity:1;
+    }
+    25% {
+        left:100%;
+        opacity:0;
+    }
+    100% {
+        left:100%;
+        opacity:0;
+    }
+}
+@-moz-keyframes anim_titles {
+    0% {
+        left:100%;
+        opacity:0;
+    }
+    5% {
+        left:10%;
+        opacity:1;
+    }
+    20% {
+        left:10%;
+        opacity:1;
+    }
+    25% {
+        left:100%;
+        opacity:0;
+    }
+    100% {
+        left:100%;
+        opacity:0;
+    }
+}

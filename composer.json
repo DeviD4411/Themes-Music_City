@@ -1,0 +1,22 @@
+{
+    "name": "devid4411/themes-music_city",
+    "description": "DeviD Mir",
+    "keywords": ["realmoney.me", "realmoney", "real", "money"],
+    "homepage": "http://realmoney.me",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "DeviD Mir",
+            "email": "devidj777@gmail.com",
+            "homepage": "http://realmoney.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
