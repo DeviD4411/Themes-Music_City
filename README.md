@@ -1,4 +1,4 @@
-RotorCMS Themes - `Music City 1.0`
+RotorCMS Themes - `Music City 2.0`
 =========
 
 [![Php Version](https://img.shields.io/badge/php-%3E%3D%205.6.4-brightgreen.svg)](https://php.net)
@@ -26,10 +26,10 @@ Phone: +972549478297
 Список задач на версию 2.0
 =========
 
-- [ ] Исправление допущенных неполадок    
-- [ ] Улучшение навигационного меню    
-- [ ] Улучшение стили дизайна    
-- [ ] Удаление всего лишнего и ненужного    
+- [ ] Исправление допущенных неполадок (0%)    
+- [ ] Улучшение навигационного меню (0%)    
+- [ ] Улучшение стили дизайна (0%)    
+- [ ] Удаление всего лишнего и ненужного (0%)    
 
 ## License    
 The is open-sourced software licensed under the [GPL-3.0](http://opensource.org/licenses/GPL-3.0)    
