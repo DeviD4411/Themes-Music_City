@@ -17,6 +17,20 @@ RotorCMS Themes - `Music City 2.0`
 ## Требования    
 1. RotorCMS 6.1 [Visavi](http://visavi.net)    
 
+## Действия после установки    
+1. Можно удалить папку `screenshots`    
+2. Можно удалить файл `composer.json` и `README.md`    
+
+## Смена лого    
+1. Поменять изображение (картинку) `style/img/logotype/logo.png`    
+2. Поменять строку экранирование `35` в файле `index.blade.php`    
+3. Настроить строку экранирование `159` в файле `style/css/theme.css`    
+4. Разрешение изображения (картинки) строго должна быть `png`    
+
+## Смена Слайдеров    
+1. Поменять изображение (картинку) от `style/img/logotype/1.png` до `style/img/logotype/11.png`    
+2. Название слайдеров строго должна быть от 1 до 11, с расширением `jpg`    
+
 ## Author    
 Name: DeviD    
 Email: devidj777@gmail.com    
