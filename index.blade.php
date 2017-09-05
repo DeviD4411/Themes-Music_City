@@ -20,7 +20,7 @@ header("Content-type:text/html; charset=utf-8");
     <link rel="image_src" href="/assets/img/images/icon.png" />
     <?= include_style() ?>
     <link rel="stylesheet" href="/themes/Music_City/style/css/theme.css" type="text/css" />
-    <link rel="stylesheet" href="/themes/Music_City/style/css/nav.css" type="text/css" />
+    <link rel="stylesheet" href="/themes/Music_City/style/css/menu.css" type="text/css" />
     <link rel="stylesheet" href="/themes/Music_City/style/css/slides.css" type="text/css" />
     <link rel="alternate" href="/news/rsss" title="RSS News" type="application/rss+xml" />
     <meta name="keywords" content="%KEYWORDS%" />
