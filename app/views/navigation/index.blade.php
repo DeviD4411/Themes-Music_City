@@ -35,12 +35,12 @@
 										    <li aria-haspopup="true"> <a href="/page/stat"><i class="fa fa-pie-chart"></i>Статистика сайта</a>
 								            <div class="grid-container3">
 									              <ul>
-										                <li><a href="/ratinglist"><i class="fa fa-history"></i>Рейтинг толстосумов</a></li>
-										                <li><a href="/authoritylist"><i class="fa fa-history"></i>Рейтинг репутации</a></li>
-										                <li><a href="/statusfaq"><i class="fa fa-history"></i>Статусы юзеров</a></li>
-										                <li><a href="/who"><i class="fa fa-history"></i>Кто-где</a></li>
-										                <li><a href="/onlinewho"><i class="fa fa-history"></i>Кто онлайн</a></li>
-										                <li><a href="/api"><i class="fa fa-history"></i>API интерфейс</a></li>
+										                <li><a href="/ratinglist"><i class="fa fa-line-chart"></i>Рейтинг толстосумов</a></li>
+										                <li><a href="/authoritylist"><i class="fa fa-line-chart"></i>Рейтинг репутации</a></li>
+										                <li><a href="/statusfaq"><i class="fa fa-paperclip"></i>Статусы юзеров</a></li>
+										                <li><a href="/who"><i class="fa fa-street-view"></i>Кто-где</a></li>
+										                <li><a href="/onlinewho"><i class="fa fa-users"></i>Кто онлайн</a></li>
+										                <li><a href="/api"><i class="fa fa-shield"></i>API интерфейс</a></li>
 										            </ul>
 										        </div>
 										    <li aria-haspopup="true"> <a href="/page"><i class="fa fa-user-secret"></i>Сервисы сайта</a>
@@ -111,7 +111,7 @@
                 <div class="grid-container3">
                     <ul>
                         <li><a href="#"><i class="fa fa-facebook"></i>Facebook</a></li>
-                        <li><a href="#"><i class="fa fa-whatsapp"></i>WhatsApp</a></li>
+                        <li><a href="whatsapp://send?text=http://realmoney.me" data-href="http://realmoney.me" data-action="share/whatsapp/share"><i class="fa fa-whatsapp"></i>WhatsApp</a></li>
                         <li><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
                         <li><a href="#"><i class="fa fa-google-plus"></i>Google Plus</a></li>
                     </ul>
@@ -121,4 +121,3 @@
 
     </ul>
 <!--/ mega menu -->
-			
