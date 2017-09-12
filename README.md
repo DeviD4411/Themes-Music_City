@@ -1,4 +1,4 @@
-RotorCMS Themes - `Music City 2.0`
+RotorCMS Themes - `Music City 3.0`
 =========
 
 [![Php Version](https://img.shields.io/badge/php-%3E%3D%205.6.4-brightgreen.svg)](https://php.net)
@@ -37,13 +37,13 @@ Email: devidj777@gmail.com
 Site: http://realmoney.me    
 Phone: +972549478297    
 
-Список задач на версию 2.0
+Список задач на версию 3.0
 =========
 
-- [x] Исправление допущенных неполадок (100%)    
-- [x] Улучшение навигационного меню (100%)    
-- [x] Улучшение стили дизайна (100%)    
-- [x] Удаление всего лишнего и ненужного (100%)    
+- [ ] Упростить стилизацию (0%)    
+- [ ] Изменить способ вызова слайдера (0%)    
+- [ ] Добавить автоопределение расширение монитора (0%)    
+- [ ] Улучшить производительность для быстроты и меньше нагрузки (0%)    
 
 ## License    
 The is open-sourced software licensed under the [GPL-3.0](http://opensource.org/licenses/GPL-3.0)    
