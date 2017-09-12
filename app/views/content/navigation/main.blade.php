@@ -9,23 +9,23 @@
 
 				<!-- about -->
             <li aria-haspopup="true"> <a href="/"><i class="fa fa-star"></i>О нас</a>
-                <div class="grid-container3">
+                <div class="grid-container4">
                     <ul>
                         <li><a href="/book"><i class="fa fa-book"></i>Гостевая</a></li>
 					 		          <li aria-haspopup="true"> <a href="/news"><i class="fa fa-newspaper-o"></i>Новости</a>
-								            <div class="grid-container3">
+								            <div class="grid-container4">
 									              <ul>
 										                <li><a href="/news/rss"><i class="fa fa-rss"></i>RSS подписка</a></li>
 										            </ul>
 										        </div>
 										    <li aria-haspopup="true"> <a href="/votes"><i class="fa fa-gavel"></i>Голосования</a>
-								            <div class="grid-container3">
+								            <div class="grid-container4">
 									              <ul>
 										                <li><a href="/votes/history"><i class="fa fa-history"></i>Архив голосований</a></li>
 										            </ul>
 										        </div>
 										    <li aria-haspopup="true"> <a href="/searchuser"><i class="fa fa-user-secret"></i>Поиск пользователя</a>
-								            <div class="grid-container3">
+								            <div class="grid-container4">
 									              <ul>
 										                <li><a href="/userlist"><i class="fa fa-users"></i>Список юзеров <?=stats_users()?></a></li>
 										                <li><a href="/adminlist"><i class="fa fa-rebel"></i>Администрация сайта <?=stats_admins()?></a></li>
@@ -33,7 +33,7 @@
 										        </div>
 										    
 										    <li aria-haspopup="true"> <a href="/page/stat"><i class="fa fa-pie-chart"></i>Статистика сайта</a>
-								            <div class="grid-container3">
+								            <div class="grid-container4">
 									              <ul>
 										                <li><a href="/ratinglist"><i class="fa fa-line-chart"></i>Рейтинг толстосумов</a></li>
 										                <li><a href="/authoritylist"><i class="fa fa-line-chart"></i>Рейтинг репутации</a></li>
@@ -44,7 +44,7 @@
 										            </ul>
 										        </div>
 										    <li aria-haspopup="true"> <a href="/page"><i class="fa fa-user-secret"></i>Сервисы сайта</a>
-								            <div class="grid-container3">
+								            <div class="grid-container4">
 									              <ul>
 										                <li><a href="/tags"><i class="fa fa-tags"></i>Справка по тегам</a></li>
 										                <li><a href="/smiles"><i class="fa fa-smile-o"></i>Галерея cмайлов</a></li>
@@ -59,7 +59,7 @@
 
 				<!-- categories -->
 				    <li aria-haspopup="true"> <a href="/load"><i class="fa fa-download"></i>Категории</a>
-                <div class="grid-container3">
+                <div class="grid-container4">
                     <ul>
                         <?php
                             if (count($downs) > 0) {    
@@ -98,7 +98,7 @@
 
 				<!-- rules -->
             <li aria-haspopup="true" class="right"> <a href="/rules"><i class="fa fa-gavel"></i>Правила</a>
-                <div class="grid-container3">
+                <div class="grid-container4">
                     <ul>
                         <li><a href="/razban"><i class="fa fa-ban"></i>Исправительная</a></li>
                     </ul>
