@@ -32,8 +32,8 @@ header("Content-type:text/html; charset=utf-8");
 
 <div id="wrap">
     <div id="header">
-        <h1 id="logo"><a href="/"><img src="/themes/Music_City/style/img/logotype/logo.png" alt="{{ App::setting('title') }}" /></a></h1>
-        <h1 id="logo-text"><i class="fa fa-thumbs-up fa-lg text-muted"> {{ App::setting('logos') }}</i></h1>
+        <h1 id="logo"><a href="/"><img src="/themes/Music_City/style/images/site/logo.png" alt="{{ App::setting('title') }}" /></a></h1>
+        <h1 id="logo-text"><i class="fa fa-thumbs-up fa-lg text-muted"> {{ App::setting('logos') }}</i> </h1>
         <div id="header-links">
             <p>
                 <div class="usmenu">
@@ -60,16 +60,16 @@ header("Content-type:text/html; charset=utf-8");
     </div>
     
     <!-- content navigation starts here -->
-    <?php views('navigation/index'); ?>
+    <?php views('content/navigation/main'); ?>
 
     <div id="content-wrap">
         <div id="sidebar">
             <!-- content right starts here -->
-            <?php views('navigation/right'); ?>
+            <?php views('content/navigation/right'); ?>
         </div>
 
-    <!-- content logotype starts here -->
-    <?php views('logotype/index'); ?>
+    <!-- content slides starts here -->
+    <?php views('includes/slides/header'); ?>
 
     <div id="main">
         <div class="body_center">

@@ -127,7 +127,7 @@ textarea {
 ********************************************/
 #wrap {
 	width: 790px;
-	background: #CCC url(/themes/Music_City/style/img/box/content.jpg) repeat-y center top;
+	background: #CCC url(/themes/Music_City/style/images/box/content.jpg) repeat-y center top;
 	margin: 0 auto;
 	text-align: left;
 }
@@ -140,7 +140,7 @@ textarea {
 #header {
 	position: relative;
 	height: 131px;
-	background: #caced1 url(/themes/Music_City/style/img/box/header.jpg) no-repeat center top;
+	background: #caced1 url(/themes/Music_City/style/images/box/header.jpg) no-repeat center top;
 	padding: 0;
 	color: #4D4D4D;
 }
@@ -269,7 +269,7 @@ textarea {
 /* Footer */
 #footer {
 	color: #C6DDEE;
-	background: #caced1 url(/themes/Music_City/style/img/box/footer.jpg) no-repeat center top;
+	background: #caced1 url(/themes/Music_City/style/images/box/footer.jpg) no-repeat center top;
 	clear: both;
 	max-width: 790px;
 	height: 114px;
@@ -341,7 +341,7 @@ textarea {
 }
 
 .b {
-	background: #141414 url(/themes/Music_City/style/img/classes/b.png) no-repeat right top;
+	background: #141414 url(/themes/Music_City/style/images/classes/b.png) no-repeat right top;
 	overflow: hidden;
 	padding : 4px;
 	padding-top : 8px;
@@ -416,7 +416,7 @@ img {
 }
 
 .usmenu {
-	background: #141414 url(/themes/Music_City/style/img/classes/b.png) no-repeat right;
+	background: #141414 url(/themes/Music_City/style/images/classes/b.png) no-repeat right;
 	color: #888888;
 	overflow: hidden;
 	padding : 4px;
@@ -433,7 +433,7 @@ img {
 }
 
 .end {
-  background: url(/themes/Music_City/style/img/logotype/footer.png) no-repeat center;
+  background: url(/themes/Music_City/style/images/classes/footer.png) no-repeat center;
 	overflow: hidden;
 	padding : 44px;
 	margin-top : 4px;
