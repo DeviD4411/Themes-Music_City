@@ -1,4 +1,4 @@
-<!-- mega menu -->
+<!-- navigation main -->
     <ul class="menu menu-anim-flip menu-response-to-icons">
     
         <!-- home -->

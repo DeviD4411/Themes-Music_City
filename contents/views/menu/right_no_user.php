@@ -1,3 +1,4 @@
+<!-- menu right no_user -->
 <div class="b"><i class="fa fa-user-circle-o"></i> <b><?= App::setting('guestsuser') ?></b></div>
     <i class="fa fa-circle-o fa-lg text-muted"></i> <a href="/login<?= App::returnUrl() ?>">Авторизация</a><br>
     <i class="fa fa-circle-o fa-lg text-muted"></i> <a href="/register">Регистрация</a><br>

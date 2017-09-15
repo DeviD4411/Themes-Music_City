@@ -10,7 +10,7 @@
             show_online();
         ?>
         <div id="copy">
-            <b><big>&copy;</big> <i>Copyright</i> 2011-<?=date('Y')?> Music City&#153;</b>
+            <?= themeVersion(''.THEME_VERSION.'.'.THEME_BUILD_VERSION.'') ?></i> 
         </div>
         <div id="author"><i class="fa fa-rebel fa-lg text-muted"> <b>Designer By</b></i> <a href="http://realmoney.me" target="_blank" style="margin-left: 2px; border: none;"><img src="/themes/Music_City/style/images/realmoney/logo.png" alt="Real Money&#153;" /></a></div>
         <br>

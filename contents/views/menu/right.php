@@ -1,3 +1,4 @@
+<!-- menu right -->
 <div class="b"><i class="fa fa-line-chart fa-lg text-muted"></i> <b>TOP 10</b></div>
     <?= top(); ?>
     <i class="fa fa-line-chart text-muted"></i> <a href="/load/top">Топ популярных файлов</a><br>

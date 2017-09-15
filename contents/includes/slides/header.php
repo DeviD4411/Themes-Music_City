@@ -1,3 +1,4 @@
+<!-- slides header -->
 <div id="sidebar_center">
     <div class="slides">
         <ul>
@@ -15,4 +16,3 @@
         </ul>
     </div>
 </div>
-		
