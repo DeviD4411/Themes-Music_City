@@ -1,4 +1,4 @@
-RotorCMS Themes - `Music City 3.0`
+RotorCMS Themes - `Music City 4.0`
 =========
 
 [![Php Version](https://img.shields.io/badge/php-%3E%3D%205.6.4-brightgreen.svg)](https://php.net)
@@ -37,11 +37,9 @@ Email: devidj777@gmail.com
 Site: http://realmoney.me    
 Phone: +972549478297    
 
-Список задач на версию 3.0
+Список задач на версию 4.0 Final
 =========
-
-- [ ] Упростить стилизацию (100%)    
-- [ ] Изменить способ вызова слайдера (100%)    
+  
 - [ ] Добавить автоопределение расширение монитора (0%)    
 - [ ] Улучшить производительность для быстроты и меньше нагрузки (0%)    
 
